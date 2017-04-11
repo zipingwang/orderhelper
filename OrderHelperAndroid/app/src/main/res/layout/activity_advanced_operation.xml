@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >    
+  
+<Button android:id="@+id/btnLogin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="用户登录"/>
+<Button android:id="@+id/btnDeleteAllTables" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="清空所有单子"/>
+<Button android:id="@+id/btnDownloadMenu" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="下载菜单"/>
+<Button android:id="@+id/btnEditBusinessInfo"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="商家信息" />
+<Button android:id="@+id/btnEditMenu"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="修改菜单" />
+<Button android:id="@+id/btnParameters"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:text="配置参数" />
+<Button android:id="@+id/btnAbout"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:text="版本信息" />
+    <Button android:id="@+id/btnReport"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="统计" />
+<Button android:id="@+id/btnExit"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:text="返回" />
+</LinearLayout>

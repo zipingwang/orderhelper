@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+         >
+ 
+        <TableRow android:id="@+id/tableRow1" style="TableDetailTableRow" >
+            <TextView android:text="桌号" style="@style/TableDetailTextView" />
+              <LinearLayout  >
+            	<EditText android:id="@+id/editTextTableNr" style="@style/TableDetailEditText" android:layout_width="60dp" android:inputType="number"><requestFocus /></EditText>
+                	
+                 	<TextView android:text="操作人员" style="@style/TableDetailTextView" />
+            		<EditText android:id="@+id/editTextTableOperator" style="@style/TableDetailEditText" android:layout_width="120dp"  />
+            		
+          </LinearLayout>
+
+        </TableRow>
+	  		<TableRow android:id="@+id/tableRow2" style="TableDetailTableRow"> 
+	  		    <TextView android:text="人数" style="@style/TableDetailTextView" />
+	  		    <LinearLayout  >	  		    	
+            		<EditText android:id="@+id/editTextTablePersonCount" style="@style/TableDetailEditText" android:layout_width="60dp" android:inputType="number" />
+            		<TextView android:text="次序号" style="@style/TableDetailTextView" android:layout_marginLeft="14dp" />
+            		<EditText android:id="@+id/editTextTableSequenceNumber" style="@style/TableDetailEditText" android:layout_width="120dip" android:inputType="number" />
+	  		    </LinearLayout>	            
+        </TableRow>
+    
+        
+         <TableRow  style="TableDetailTableRow"> 
+            <TextView  android:text="订单时间" style="@style/TableDetailTextView" />
+            <LinearLayout android:orientation="horizontal" >
+            	<EditText android:id="@+id/editTextTableOrderTimeDay" style="@style/TableDetailEditText" android:layout_width="110dip" android:inputType="number" />
+            	<EditText android:id="@+id/editTextTableOrderTimeHour" style="@style/TableDetailEditText"  android:layout_width="110dip" android:inputType="number" />
+            </LinearLayout>
+        </TableRow>
+ 
+        <TableRow style="TableDetailTableRow"> 
+            <TextView  android:text="买单时间" style="@style/TableDetailTextView" />
+            <LinearLayout android:orientation="horizontal" >
+            	<EditText android:id="@+id/editTextTablePrintTimeDay" style="@style/TableDetailEditText" android:layout_width="110dip" android:inputType="number" />
+            	<EditText android:id="@+id/editTextTablePrintTimeHour" style="@style/TableDetailEditText" android:layout_width="110dip" android:inputType="number" />
+            </LinearLayout>
+        </TableRow>
+        
+        <TableRow  style="TableDetailTableRow"> 
+           
+        </TableRow>
+       <LinearLayout android:orientation="horizontal">
+	          <Button
+	         android:id="@+id/btnGoBack"
+	         android:layout_width="wrap_content"
+	         android:minWidth="100dp"
+	         android:layout_height="wrap_content"
+	         android:text="@string/btn_cancel" />
+	         <Button
+	         android:id="@+id/btnSave"
+	         android:layout_width="wrap_content"
+	         android:minWidth="100dp"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="right"
+	         android:text="@string/btn_confirm" />"
+	 </LinearLayout>
+        
+    </TableLayout> 
+</LinearLayout>
+ 

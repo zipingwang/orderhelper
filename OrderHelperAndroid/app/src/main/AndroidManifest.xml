@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eurotong.orderhelperandroid"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/fullscreenlight">
+        <activity
+            android:name=".TablesOverviewActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_tables_overview"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TableDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TableOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PrintPreview" />
+        <activity
+            android:name=".OrderMenuActivity"
+            android:screenOrientation="portrait" />
+
+        <!--
+        <activity
+            android:name=".SocketTest"
+            android:label="@string/title_activity_socket_test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity
+            android:name=".DownloadFilesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdvancedOperationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VersionInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/title_activity_base"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditMenuActivity"
+            android:label="@string/title_activity_edit_menu" />
+        <activity
+            android:name=".EditMenuOverviewActivity"
+            android:label="@string/title_activity_edit_menu_overview" />
+        <activity
+            android:name=".EditMenuGroupActivity"
+            android:label="@string/title_activity_edit_menu_group" />
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report" />
+        <activity
+            android:name=".AdDetailActivity"
+            android:label="@string/title_activity_ad_detail"></activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

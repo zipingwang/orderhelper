@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<Button android:id="@+id/btnPrintBill" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="@string/btn_print_bill"/>
+<Button android:id="@+id/btnPrintKitchen"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="@string/btn_print_kitchen"/>
+<Button android:id="@+id/btnPrintBar"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:text="@string/btn_print_bar"/>
+<Button android:id="@+id/btnPrintPreview"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="@string/btn_print_preview"/>
+<Button android:id="@+id/btnExit"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:text="@string/btn_exit"/>
+</LinearLayout>

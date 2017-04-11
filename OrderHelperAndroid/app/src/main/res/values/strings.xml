@@ -1,0 +1,102 @@
+<resources>
+
+    <string name="app_name">订单管家</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_tables_overview">订单管家</string>
+    <!-- this is the label on screen -->
+    <string name="btn_add">添加</string>
+    <string name="btn_add_one">添加</string>
+    <string name="btn_remove_one">删减</string>
+    <string name="btn_moveup">上移</string>
+    <string name="btn_movedown">下移</string>
+    <string name="btn_modify">修改</string>
+    <string name="btn_go_back">返回</string>
+    <string name="btn_exit">退出</string>
+    <string name="btn_extra">......</string>
+    <string name="btn_print">打印</string>
+    <string name="btn_close_keyboard">关闭键盘</string>
+    <string name="btn_view_current_orders">订单</string>
+    <string name="btn_go_home">首页</string>
+    <string name="btn_view_groups">菜单</string>
+    <string name="btn_print_bill">打印单子</string>
+    <string name="btn_print_kitchen">打印厨房</string>
+    <string name="btn_print_bar">打印酒吧</string>
+    <string name="btn_print_preview">打印预览</string>
+    <string name="btn_next">继续</string>
+    <string name="btn_add_new_table">添加单子</string>
+    <string name="btn_delete_table">删除此单</string>
+    <string name="btn_delete_all_tables">删除所有单子</string>
+    <string name="btn_user_login">用户登录</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_download">下载菜单</string>
+    <string name="btn_view_business_info">商家信息</string>
+    <string name="btn_view_version_info">版本信息</string>
+    <string name="btn_add_child_table">添加酒水单</string>
+    <string name="btn_view_table_detail">单子信息</string>
+    <string name="btn_add_new_menu">添加新菜</string>
+    <string name="btn_add_new_group">添加组别</string>
+    <string name="title_activity_table_detail">TableDetailActivity</string>
+    <string name="title_activity_table_order">TableOrderActivity</string>
+    <string name="title_activity_print_preview">PrintPreview</string>
+    <string name="title_activity_socket_test">SocketTest</string>
+    <string name="title_activity_order_menu">OrderMenuActivity</string>
+    <string name="msg_are_you_sure_to_delete_this_order">确定要删除此单吗？</string>
+    <string name="msg_are_you_sure_to_delete">确定要删除吗？</string>
+    <string name="msg_this_product_nr_not_exist">号码不存在</string>
+    <string name="msg_download_error">下载错误</string>
+    <string name="msg_save_success">保存成功</string>
+    <string name="msg_save_failed">保存失败</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_download_files">DownloadFilesActivity</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+    <string name="title_activity_advanced_operation">AdvancedOperationActivity</string>
+    <string name="title_activity_version_info">VersionInfoActivity</string>
+    <string name="msg_print_success">打印完成</string>
+    <string name="msg_print_error">打印错误</string>
+    <string name="msg_print_error_no_license">打印错误。机子没有注册。</string>
+    <string name="msg_table_already_exists">此单号已存在，要跳转过去吗？</string>
+    <string name="msg_menufile_already_exists">菜单已存在， 要重新下载吗？已有的菜单将被覆盖</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="all_menus">全部菜单</string>
+    <string name="msg_are_your_sure_to_delete_all_tables">确定要删除所有单子吗？</string>
+    <string name="msg_please_select_operation">请选择以下操作</string>
+    <string name="msg_user_has_no_right">用户没有权限</string>
+    <string name="input_menu_number">输入号码</string>
+    <string name="input_menu_keywords">输入号码或关键字</string>
+    <string name="msg_add_menu_order_success">成功添加</string>
+    <string name="msg_minus_menu_order_success">成功删减</string>
+    <string name="msg_current_ordered_menu">当前所定</string>
+    <string name="msg_no_orders_yet">目前尚无订单</string>
+    <string name="msg_no_mached_menu_found">无匹配结果</string>
+    <string name="msg_table_nr_must_fill_in">单号不能是空的</string>
+    <string name="msg_move_outside_group">只能在同一类别内上移或下移。如想把它归类到其它类别，请选择修改然后把它归入其它类别</string>
+    <string name="msg_menunr_already_exists">此号码已存在</string>
+    <string name="msg_groupname_already_exists">此组别已存在</string>
+    <string name="msg_menu_nr_cannot_be_empty">号码一定要填</string>
+    <string name="msg_download_file_finished">文件下载完毕</string>
+    <string name="msg_download_file_error">文件下载错误</string>
+    <string name="msg_menu_file_not_exists">请先下载菜单</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_edit_menu">EditMenuActivity</string>
+    <string name="title_activity_edit_menu_overview">EditMenuOverviewActivity</string>
+    <string name="title_activity_edit_menu_group">EditMenuGroupActivity</string>
+    <string name="lbl_software_version">软件版本：</string>
+    <string name="lbl_setting_version">参数版本：</string>
+    <string name="lbl_ip_address">Ip 地址：</string>
+    <string name="lbl_wifi_id">无线网络：</string>
+    <string name="AddOrder">添加单子</string>
+    <string name="AddOrderTakeAway">添加外卖单子</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_ad_detail">AdDetailActivity</string>
+    <string-array name="KitchenGroup">
+        <item>Geen keuken 不是厨房菜</item>
+        <item>Soep 汤</item>
+        <item>Voorgerecht 头盘</item>
+        <item>Gerecht 主菜</item>
+    </string-array>
+
+</resources>

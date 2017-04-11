@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/order_line_backcolor"
+    android:layout_marginTop="3dp"
+    >
+    <TextView
+        android:id="@+id/txtTableNr"
+        android:layout_width="100dip"
+
+        style="@style/order_line"
+        android:text="TextView"  android:layout_marginLeft="10dp" />
+    <TextView
+        android:id="@+id/txtTotalTakeAway"
+        android:layout_width="50dip"
+        android:layout_weight="1"
+        style="@style/order_line"
+        android:text="TextView" />
+</LinearLayout>

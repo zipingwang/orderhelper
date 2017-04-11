@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/order_line_backcolor"
+    android:layout_marginTop="3dp"
+     >
+         <TextView
+        android:id="@+id/txtMenuNr"
+        android:layout_width="50dip"    
+        style="@style/order_line"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/txtOrderMenuName"
+        android:layout_width="0dip"
+        android:layout_weight="1"        
+        style="@style/order_line"
+        android:text="TextView" /> 
+
+    <Button android:id="@+id/btnModify" android:minWidth="50dp"  android:layout_width="wrap_content" style="@style/order_line"
+        android:text="@string/btn_modify"></Button>"
+    <Button android:id="@+id/btnMoveUp" android:minWidth="50dp"  android:layout_width="wrap_content" style="@style/order_line"
+        android:text="@string/btn_moveup"></Button>"
+    <Button android:id="@+id/btnMoveDown" android:minWidth="50dp" android:layout_width="wrap_content" style="@style/order_line"
+        android:text="@string/btn_movedown"></Button>
+</LinearLayout>

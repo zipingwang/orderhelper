@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView
+    android:id="@+id/imageViewTable"
+    android:layout_width="wrap_content"
+    android:layout_height="0dip"
+     android:layout_weight="1" />
+<Button style="@style/FullWidthButton" android:id="@+id/btnPrint" android:text="打印"></Button>
+<Button style="@style/FullWidthButton" android:id="@+id/btnPrintKitchen" android:text="打印厨房"></Button>
+<Button style="@style/FullWidthButton" android:id="@+id/btnPrintBar" android:text="打印酒吧"></Button>
+<Button style="@style/FullWidthButton" android:id="@+id/btnExit" android:text="返回"></Button>
+<TableLayout
+        android:id="@+id/LayoutTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"         
+        > 
+        <TableRow           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <Button style="@style/FullWidthButton" android:id="@+id/btnDownload" android:text="下载"></Button>
+            <Button style="@style/FullWidthButton" android:id="@+id/btnRedrawPrint" android:text="刷新"></Button>      
+            <Button style="@style/FullWidthButton" android:id="@+id/btnRedrawKintchPrint" android:text="厨房预览"></Button>
+            <Button style="@style/FullWidthButton" android:id="@+id/btnRedrawBarPrint" android:text="酒吧预览"></Button>
+       </TableRow>
+   </TableLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"  android:layout_marginLeft="10dp" android:layout_marginTop="10dp" >
+
+    <TextView
+        android:id="@+id/txtOrderMenuNr"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtOrderMenuName"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="TextView" android:layout_marginLeft="10dp" />
+    <TextView
+        android:id="@+id/txtOrderCount"
+        android:layout_width="50dip"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <Button android:id="@+id/btnAddOne" android:layout_width="30dp"
+        android:layout_height="wrap_content" android:text="+"></Button>
+    <Button android:id="@+id/btnRemoveOne" android:layout_width="30dp"
+        android:layout_height="wrap_content" android:text="-"></Button>
+</LinearLayout>

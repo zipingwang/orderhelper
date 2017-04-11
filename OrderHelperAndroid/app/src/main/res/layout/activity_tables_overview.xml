@@ -1,0 +1,84 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    > 
+    <!--  android:layout_weight="1"
+    android:background="#FFFFFF"
+    -->
+    
+    
+    <ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent"
+		 android:layout_height="0dip" 
+		 android:layout_weight="1"       
+		>
+     <LinearLayout
+         android:orientation="vertical" 
+         android:id="@+id/tablesContainer"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         />
+	</ScrollView>
+	
+	 
+	 <!--  working solution
+	 <LinearLayout
+         android:orientation="vertical" 
+         android:id="@+id/tablesContainer"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"         
+         />
+	    -->
+	 <!--  working solution
+	  <LinearLayout
+         android:orientation="vertical" 
+         android:id="@+id/tablesContainer"
+         android:layout_width="fill_parent"
+         android:layout_height="0dip"
+         android:layout_weight="1"
+         />
+          -->
+          
+       <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+     <TextView
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1" >
+</TextView>
+     <Button
+         android:id="@+id/btnAddTable"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/AddOrder" />
+           <Button
+               android:id="@+id/btnAddTableTakeAway"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/AddOrderTakeAway" android:layout_marginLeft="20dp"/>
+     <TextView
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1" >
+</TextView>
+      <Button
+	         android:id="@+id/btnExtra"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"		               
+	         android:text="......" />
+      </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnShowAd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ad_back_color"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/AddOrder" />
+        </LinearLayout>
+</LinearLayout>

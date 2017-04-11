@@ -1,0 +1,46 @@
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/tableLayout1"
+     android:layout_width="wrap_content"
+     android:layout_height="fill_parent"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="10dp"
+      >
+        <TableRow style="TableDetailTableRow" >
+            <TextView android:text="组别名称" style="@style/TableDetailTextView"   />   
+        </TableRow>
+        <TableRow >
+            <EditText android:layout_width="300dip" android:id="@+id/txtGroupName" />
+                    </TableRow>
+         <TableRow android:layout_height="80dip"> 
+            
+        </TableRow>
+
+      <TableRow style="TableDetailTableRow" >
+          <TextView android:text="" style="@style/TableDetailTextView"   />
+      </TableRow>
+
+      <TableRow style="TableDetailTableRow" >
+          <TextView android:text="厨房出菜顺序" style="@style/TableDetailTextView"   />
+      </TableRow>
+
+      <TableRow >
+          <Spinner
+              android:id="@+id/MenuGroupKitchenOrder"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" />
+      </TableRow>
+      <TableRow android:layout_height="80dip">
+
+      </TableRow>
+         <TableRow android:layout_height="80dip" android:layout_marginTop="80dip"> 
+            <Button android:id="@+id/btnSave" android:text="@string/btn_save"></Button>   
+                </TableRow>
+                
+                  <TableRow android:layout_height="80dip"> 
+            <Button android:id="@+id/btnCancel" android:text="@string/btn_go_back"></Button>
+                </TableRow>
+                
+                  <TableRow android:layout_height="80dip" > 
+                <Button android:id="@+id/btnDelete" android:text="@string/btn_delete"></Button>  
+                </TableRow>
+</TableLayout>

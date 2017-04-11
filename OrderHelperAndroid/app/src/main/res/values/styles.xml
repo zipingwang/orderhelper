@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="android:Theme.Light" />
+	<style name="TableDetailTextView">        
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item> 
+    </style>
+    <style name="TableDetailEditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+     <style name="TableDetailTableRow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dip </item>
+        <item name="android:layout_marginLeft">5dip </item>
+        <item name="android:layout_marginRight">5dip </item>
+    </style>
+     <style name="FullWidthButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>                 
+    </style>
+     <style name="order_line">         
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+         <item name="android:layout_height">wrap_content</item>   
+    </style>
+    <style name="order_line_button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--  if use  android:Theme.Light.NoTitleBar.Fullscreen has problem with layout, at top of some page it has black status bar. so use android:Theme.NoTitleBar.Fullscreen and override some property-->
+    <!--  <style name="fullscreen" parent="android:Theme.Light.NoTitleBar.Fullscreen"> -->
+    <style name="fullscreenlight" parent="android:Theme.NoTitleBar.Fullscreen">
+    	<item name="android:windowBackground">@color/white</item>    	
+    	<item name="android:textColor">#000000</item>
+	</style>
+	
+	<style name="fullscreendark" parent="android:Theme.NoTitleBar.Fullscreen">
+    	
+	</style>
+</resources>
